@@ -1,0 +1,16 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Tweets</h1>
+<%= link_to 'New Tweet', new_tweet_path %>
+<br>
+<ul class="article-list">
+  <% @tweets.each do |tweet| %>
+    <%= link_to tweet_path(tweet) do %>
+      <li class="item" style='width:200px; height: 260px; box-shadow: 0 0 8px gray; list-style:none; text-align:center;'>
+        <p><%= tweet.title %></p>
+        <p><%= tweet.content %></p>
+      </li>
+    <% end %>
+  <% end %>
+</ul>
+<%= paginate @tweets %>

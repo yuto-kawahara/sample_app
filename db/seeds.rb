@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+250.times do |i|
+  Tweet.create!(
+    title:    "募集#{i}",
+    content:  "テキストが入ります"
+  )
+end
