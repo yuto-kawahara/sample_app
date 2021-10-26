@@ -1,0 +1,2462 @@
+Started GET "/" for 119.230.60.191 at 2021-10-26 00:51:53 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.6) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 119.230.60.191 at 2021-10-26 00:51:55 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+        bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+activerecord (5.2.6) lib/active_record/migration.rb:579:in `check_pending!'
+activerecord (5.2.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ bin/rails:9
+  [1m[35m (8.8ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ bin/rails:9
+  [1m[35m (4.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to CreateTweets (20211026004109)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/migrate/20211026004109_create_tweets.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20211026004109"]]
+  ↳ bin/rails:9
+  [1m[35m (5.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Create (1.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 00:52:39.221398"], ["updated_at", "2021-10-26 00:52:39.221398"]]
+  ↳ bin/rails:9
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 119.230.60.191 at 2021-10-26 00:52:51 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.0ms)
+Completed 200 OK in 13ms (Views: 6.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 00:52:56 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (33.9ms)
+  Rendered tweets/index.html.erb within layouts/application (40.9ms)
+Completed 200 OK in 1276ms (Views: 1268.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/new" for 119.230.60.191 at 2021-10-26 00:53:05 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (68.4ms)
+  Rendered tweets/new.html.erb within layouts/application (70.6ms)
+Completed 200 OK in 118ms (Views: 111.5ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/tweets" for 119.230.60.191 at 2021-10-26 00:53:09 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NnruEtR/21fx+1w9cN7JRlc/Xoo5hAtXmwlz3Uia18vE9lS2yPFGloX2CBsd2MNmhh+MaUqlmzv2lGN0ZR4YMA==", "tweet"=>{"title"=>"aaa", "content"=>"aaa"}, "commit"=>"Create Tweet"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[36mTweet Create (2.1ms)[0m  [1m[32mINSERT INTO "tweets" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "aaa"], ["content", "aaa"], ["created_at", "2021-10-26 00:53:09.462096"], ["updated_at", "2021-10-26 00:53:09.462096"]]
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+Redirected to https://11a729dc9b44469dbee3a844783b93ba.vfs.cloud9.us-east-1.amazonaws.com/tweets/1
+Completed 302 Found in 14ms (ActiveRecord: 6.2ms)
+
+
+Started GET "/tweets/1" for 119.230.60.191 at 2021-10-26 00:53:09 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 41ms (Views: 34.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 00:53:11 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered tweets/index.html.erb within layouts/application (12.9ms)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `start_time' for #<Tweet:0x00007fc1063447b0>):
+    26: 
+    27: <br>
+    28: 
+    29: <%= month_calendar events: @tweets do |date, tweets| %>
+    30:   <%= date.day %>
+    31: 
+    32:   <% tweets.each do |tweet| %>
+  
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb__419513244829332179_70233504705780'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Migrating to AddColumnTweets (20211026005651)
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (1.1ms)[0m  [1m[35mALTER TABLE "tweets" ADD "start_time" datetime[0m
+  ↳ db/migrate/20211026005651_add_column_tweets.rb:3
+  [1m[36mActiveRecord::SchemaMigration Create (0.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20211026005651"]]
+  ↳ bin/rails:9
+  [1m[35m (5.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (1.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tweets"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (4.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20211026005651)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (5.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20211026004109);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 00:58:22.001331"], ["updated_at", "2021-10-26 00:58:22.001331"]]
+  ↳ db/schema.rb:13
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tweets"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (7.9ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (5.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20211026005651)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (7.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20211026004109);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 00:58:22.047641"], ["updated_at", "2021-10-26 00:58:22.047641"]]
+  ↳ db/schema.rb:13
+  [1m[35m (4.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (1.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2021-10-26 00:58:22.059189"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (4.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 00:58:31 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (7.8ms)
+  Rendered tweets/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 326ms (Views: 317.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/new" for 119.230.60.191 at 2021-10-26 00:58:34 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (4.5ms)
+  Rendered tweets/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 48ms (Views: 40.9ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for 119.230.60.191 at 2021-10-26 00:58:37 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W2ect3SnZ/Y5ARCcqXNnFPqRs9TQYxukeoRFrREAuoGp6yYTaCn6N00MRLrEdW00K7FhN6NCi8gXGVUEPIR1eg==", "tweet"=>{"title"=>"aaa", "content"=>"aaa"}, "commit"=>"Create Tweet"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[36mTweet Create (27.5ms)[0m  [1m[32mINSERT INTO "tweets" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "aaa"], ["content", "aaa"], ["created_at", "2021-10-26 00:58:37.838953"], ["updated_at", "2021-10-26 00:58:37.838953"]]
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[35m (13.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+Redirected to https://11a729dc9b44469dbee3a844783b93ba.vfs.cloud9.us-east-1.amazonaws.com/tweets/1
+Completed 302 Found in 53ms (ActiveRecord: 40.7ms)
+
+
+Started GET "/tweets/1" for 119.230.60.191 at 2021-10-26 00:58:38 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 39ms (Views: 34.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 00:58:39 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.6ms)
+  Rendered tweets/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 45ms (Views: 44.1ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tweets"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (6.6ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (4.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20211026005651)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (6.9ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20211026004109);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.9ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (4.9ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 01:04:33.117056"], ["updated_at", "2021-10-26 01:04:33.117056"]]
+  ↳ db/schema.rb:13
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tweets"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (5.0ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (6.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (4.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20211026005651)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (4.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20211026004109);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 01:04:33.160783"], ["updated_at", "2021-10-26 01:04:33.160783"]]
+  ↳ db/schema.rb:13
+  [1m[35m (8.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2021-10-26 01:04:33.171157"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/" for 119.230.60.191 at 2021-10-26 01:04:50 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.1ms)
+Completed 200 OK in 11ms (Views: 5.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:04:56 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (6.5ms)
+  Rendered tweets/index.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 279ms (Views: 276.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/new" for 119.230.60.191 at 2021-10-26 01:04:58 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (16.8ms)
+  Rendered tweets/new.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 55ms (Views: 48.5ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for 119.230.60.191 at 2021-10-26 01:05:06 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VoU+UVtq27r+D7GhXlu40QBopR1hV8ba/anyjaxHzVKkCYT1R+RGe4oC5YczXbLx0Uh3/hJ2VraQNOIkgcMCqQ==", "tweet"=>{"title"=>"aaa", "content"=>"aaa", "start_time(1i)"=>"2021", "start_time(2i)"=>"10", "start_time(3i)"=>"26", "start_time(4i)"=>"01", "start_time(5i)"=>"04"}, "commit"=>"Create Tweet"}
+Unpermitted parameters: :start_time(1i), :start_time(2i), :start_time(3i), :start_time(4i), :start_time(5i)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[36mTweet Create (2.3ms)[0m  [1m[32mINSERT INTO "tweets" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "aaa"], ["content", "aaa"], ["created_at", "2021-10-26 01:05:06.338418"], ["updated_at", "2021-10-26 01:05:06.338418"]]
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+Redirected to https://11a729dc9b44469dbee3a844783b93ba.vfs.cloud9.us-east-1.amazonaws.com/tweets/1
+Completed 302 Found in 14ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/tweets/1" for 119.230.60.191 at 2021-10-26 01:05:06 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 40ms (Views: 34.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:05:09 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (4.9ms)
+  Rendered tweets/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 58ms (Views: 55.8ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tweets"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (4.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (5.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20211026005651)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20211026004109);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (6.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (3.3ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 01:05:43.292789"], ["updated_at", "2021-10-26 01:05:43.292789"]]
+  ↳ db/schema.rb:13
+  [1m[35m (4.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tweets"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (4.3ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (5.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (5.8ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20211026005651)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (4.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20211026004109);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 01:05:43.335941"], ["updated_at", "2021-10-26 01:05:43.335941"]]
+  ↳ db/schema.rb:13
+  [1m[35m (5.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (0.2ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2021-10-26 01:05:43.343687"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (5.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:05:51 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.6ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (7.4ms)
+  Rendered tweets/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 286ms (Views: 276.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/new" for 119.230.60.191 at 2021-10-26 01:05:53 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (6.4ms)
+  Rendered tweets/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 47ms (Views: 40.6ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/tweets" for 119.230.60.191 at 2021-10-26 01:06:08 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VPBxyoNOzOA8lKGDjFRVv4NHUqcVL/m+ni9Hu/6WKXymfMtun8BRIUiZ9aXhUl+fUmeARGYOadLzslcS0xLmhw==", "tweet"=>{"title"=>"aaa", "content"=>"aaa", "start_time(1i)"=>"2021", "start_time(2i)"=>"10", "start_time(3i)"=>"26", "start_time(4i)"=>"05", "start_time(5i)"=>"07"}, "commit"=>"Create Tweet"}
+Unpermitted parameters: :start_time(1i), :start_time(2i), :start_time(3i), :start_time(4i), :start_time(5i)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[36mTweet Create (2.2ms)[0m  [1m[32mINSERT INTO "tweets" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "aaa"], ["content", "aaa"], ["created_at", "2021-10-26 01:06:08.718406"], ["updated_at", "2021-10-26 01:06:08.718406"]]
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+Redirected to https://11a729dc9b44469dbee3a844783b93ba.vfs.cloud9.us-east-1.amazonaws.com/tweets/1
+Completed 302 Found in 15ms (ActiveRecord: 6.6ms)
+
+
+Started GET "/tweets/1" for 119.230.60.191 at 2021-10-26 01:06:08 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 40ms (Views: 35.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:06:10 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (24.5ms)
+  Rendered tweets/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 76ms (Views: 75.3ms | ActiveRecord: 0.1ms)
+
+
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" LIMIT ?[0m  [["LIMIT", 11]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ?[0m  [["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tweets"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (7.3ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (7.0ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20211026005651)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.6ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20211026004109);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (6.2ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 01:07:34.997467"], ["updated_at", "2021-10-26 01:07:34.997467"]]
+  ↳ db/schema.rb:13
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[35mDROP TABLE IF EXISTS "tweets"[0m
+  ↳ db/schema.rb:15
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (7.4ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" integer PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar, "content" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "start_time" datetime)[0m
+  ↳ db/schema.rb:15
+  [1m[35m (4.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES (20211026005651)[0m
+  ↳ db/schema.rb:13
+  [1m[35m (5.5ms)[0m  [1m[32mINSERT INTO "schema_migrations" (version) VALUES
+(20211026004109);
+
+[0m
+  ↳ db/schema.rb:13
+  [1m[35m (3.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ db/schema.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Create (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2021-10-26 01:07:35.040591"], ["updated_at", "2021-10-26 01:07:35.040591"]]
+  ↳ db/schema.rb:13
+  [1m[35m (6.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ db/schema.rb:13
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  ↳ bin/rails:9
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ bin/rails:9
+  [1m[36mActiveRecord::InternalMetadata Update (2.0ms)[0m  [1m[33mUPDATE "ar_internal_metadata" SET "value" = ?, "updated_at" = ? WHERE "ar_internal_metadata"."key" = ?[0m  [["value", "test"], ["updated_at", "2021-10-26 01:07:35.048526"], ["key", "environment"]]
+  ↳ bin/rails:9
+  [1m[35m (3.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ bin/rails:9
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ bin/rails:9
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:07:43 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (7.4ms)
+  Rendered tweets/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 304ms (Views: 294.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets/new" for 119.230.60.191 at 2021-10-26 01:07:45 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (6.3ms)
+  Rendered tweets/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 45ms (Views: 38.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for 119.230.60.191 at 2021-10-26 01:07:51 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9DcdDtD+Y1GzRCjnEp0OabDZLamrZdkdszQRY6x6VQoGu6eqzHD+kMdJfMF/mwRJYfn/SthESXHeqQHKgf6a8Q==", "tweet"=>{"title"=>"aaa", "content"=>"aaa", "start_time(1i)"=>"2021", "start_time(2i)"=>"10", "start_time(3i)"=>"26", "start_time(4i)"=>"01", "start_time(5i)"=>"07"}, "commit"=>"Create Tweet"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[36mTweet Create (0.9ms)[0m  [1m[32mINSERT INTO "tweets" ("title", "content", "created_at", "updated_at", "start_time") VALUES (?, ?, ?, ?, ?)[0m  [["title", "aaa"], ["content", "aaa"], ["created_at", "2021-10-26 01:07:51.645762"], ["updated_at", "2021-10-26 01:07:51.645762"], ["start_time", "2021-10-26 01:07:00"]]
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[35m (6.8ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+Redirected to https://11a729dc9b44469dbee3a844783b93ba.vfs.cloud9.us-east-1.amazonaws.com/tweets/1
+Completed 302 Found in 31ms (ActiveRecord: 7.7ms)
+
+
+Started GET "/tweets/1" for 119.230.60.191 at 2021-10-26 01:07:51 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 54ms (Views: 47.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:07:53 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.1ms)
+  Rendered tweets/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 44ms (Views: 42.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/1" for 119.230.60.191 at 2021-10-26 01:07:55 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 33.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:07:59 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.3ms)
+  Rendered tweets/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 66ms (Views: 63.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:08:54 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.4ms)
+  Rendered tweets/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 60ms (Views: 59.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:09:38 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (6.0ms)
+  Rendered tweets/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets?start_date=2021-11-01" for 119.230.60.191 at 2021-10-26 01:09:40 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Parameters: {"start_date"=>"2021-11-01"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (20.1ms)
+  Rendered tweets/index.html.erb within layouts/application (27.9ms)
+Completed 200 OK in 67ms (Views: 66.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets?start_date=2021-10-31" for 119.230.60.191 at 2021-10-26 01:09:41 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Parameters: {"start_date"=>"2021-10-31"}
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (9.8ms)
+  Rendered tweets/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/new" for 119.230.60.191 at 2021-10-26 01:09:43 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (6.2ms)
+  Rendered tweets/new.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 62ms (Views: 60.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tweets" for 119.230.60.191 at 2021-10-26 01:09:53 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"K2Jq+tVDP9sDWs7Q/LrkuILHwdJd+MzFDmgzKtcPiOzZ7tBeyc2iGndXmvaRvO6YU+cTMS7ZXKlj9SOD+otHFw==", "tweet"=>{"title"=>"bbb", "content"=>"bbb", "start_time(1i)"=>"2021", "start_time(2i)"=>"10", "start_time(3i)"=>"25", "start_time(4i)"=>"01", "start_time(5i)"=>"09"}, "commit"=>"Create Tweet"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[36mTweet Create (1.5ms)[0m  [1m[32mINSERT INTO "tweets" ("title", "content", "created_at", "updated_at", "start_time") VALUES (?, ?, ?, ?, ?)[0m  [["title", "bbb"], ["content", "bbb"], ["created_at", "2021-10-26 01:09:53.318084"], ["updated_at", "2021-10-26 01:09:53.318084"], ["start_time", "2021-10-25 01:09:00"]]
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[35m (4.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+Redirected to https://11a729dc9b44469dbee3a844783b93ba.vfs.cloud9.us-east-1.amazonaws.com/tweets/2
+Completed 302 Found in 16ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/tweets/2" for 119.230.60.191 at 2021-10-26 01:09:53 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 75ms (Views: 71.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:09:54 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (12.0ms)
+  Rendered tweets/index.html.erb within layouts/application (21.2ms)
+Completed 200 OK in 71ms (Views: 69.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/2" for 119.230.60.191 at 2021-10-26 01:09:56 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 56ms (Views: 51.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:09:57 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.0ms)
+  Rendered tweets/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/new" for 119.230.60.191 at 2021-10-26 01:09:59 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#new as HTML
+  Rendering tweets/new.html.erb within layouts/application
+  Rendered tweets/_form.html.erb (4.8ms)
+  Rendered tweets/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/tweets" for 119.230.60.191 at 2021-10-26 01:10:09 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"CPL+b2dUkFfydLX763YncPP80XGm+allHEzaMlZSStP6fkTLe9oNloZ54d2GcC1QItwDktXYOQlx0cqbe9aFKA==", "tweet"=>{"title"=>"ccc", "content"=>"ccc", "start_time(1i)"=>"2021", "start_time(2i)"=>"10", "start_time(3i)"=>"25", "start_time(4i)"=>"01", "start_time(5i)"=>"09"}, "commit"=>"Create Tweet"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[36mTweet Create (1.8ms)[0m  [1m[32mINSERT INTO "tweets" ("title", "content", "created_at", "updated_at", "start_time") VALUES (?, ?, ?, ?, ?)[0m  [["title", "ccc"], ["content", "ccc"], ["created_at", "2021-10-26 01:10:09.243730"], ["updated_at", "2021-10-26 01:10:09.243730"], ["start_time", "2021-10-25 01:09:00"]]
+  ↳ app/controllers/tweets_controller.rb:27
+  [1m[35m (4.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tweets_controller.rb:27
+Redirected to https://11a729dc9b44469dbee3a844783b93ba.vfs.cloud9.us-east-1.amazonaws.com/tweets/3
+Completed 302 Found in 12ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/tweets/3" for 119.230.60.191 at 2021-10-26 01:10:09 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT  "tweets".* FROM "tweets" WHERE "tweets"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/tweets_controller.rb:62
+  Rendering tweets/show.html.erb within layouts/application
+  Rendered tweets/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 32ms (Views: 30.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:10:11 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (4.8ms)
+  Rendered tweets/index.html.erb within layouts/application (20.4ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:14:11 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (23.3ms)
+  Rendered tweets/index.html.erb within layouts/application (38.6ms)
+Completed 500 Internal Server Error in 57ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `count' for #<Tweet:0x00007f0c08b65bc8>):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:34:in `block (2 levels) in _app_views_tweets_index_html_erb___783251327931334421_69844830895520'
+app/views/tweets/index.html.erb:32:in `each'
+app/views/tweets/index.html.erb:32:in `block in _app_views_tweets_index_html_erb___783251327931334421_69844830895520'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__748201805274199382_69844831300240'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__748201805274199382_69844831300240'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__748201805274199382_69844831300240'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__748201805274199382_69844831300240'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___783251327931334421_69844830895520'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:18:56 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (110090.5ms)
+  Rendered tweets/index.html.erb within layouts/application (110097.2ms)
+Completed 200 OK in 110452ms (Views: 110450.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:20:49 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5917.1ms)
+  Rendered tweets/index.html.erb within layouts/application (5932.6ms)
+Completed 200 OK in 5981ms (Views: 5979.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:28:43 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (73671.2ms)
+  Rendered tweets/index.html.erb within layouts/application (73678.1ms)
+Completed 500 Internal Server Error in 73687ms (ActiveRecord: 0.2ms)
+
+
+  
+SystemExit (exit):
+  
+app/views/tweets/index.html.erb:32:in `exit'
+app/views/tweets/index.html.erb:32:in `block in _app_views_tweets_index_html_erb___783251327931334421_69844892620060'
+app/views/tweets/index.html.erb:32:in `block in _app_views_tweets_index_html_erb___783251327931334421_69844892620060'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__748201805274199382_69844892692400'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__748201805274199382_69844892692400'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__748201805274199382_69844892692400'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__748201805274199382_69844892692400'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___783251327931334421_69844892620060'
+Started GET "/" for 119.230.60.191 at 2021-10-26 01:31:53 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 13ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:31:56 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.5ms)
+  Rendered tweets/index.html.erb within layouts/application (19.7ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 1.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `where' for []:Array
+Did you mean?  when):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:32:in `block in _app_views_tweets_index_html_erb___3771947179703869236_31608380'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_37030100'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_37030100'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_37030100'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_37030100'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3771947179703869236_31608380'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:33:48 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (4.4ms)
+  Rendered tweets/index.html.erb within layouts/application (18.8ms)
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `tweet_count' for []:Array):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:32:in `block in _app_views_tweets_index_html_erb___3771947179703869236_38433040'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065078892940'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065078892940'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065078892940'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065078892940'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3771947179703869236_38433040'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:34:20 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  Rendered tweets/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/sample_app/app/views/tweets/index.html.erb:32: syntax error, unexpected tIDENTIFIER, expecting ')'
+...to @tweets.tweet_count(date)件 );@output_buffer.safe_append...
+...                            ^~~):
+  
+app/views/tweets/index.html.erb:32: syntax error, unexpected tIDENTIFIER, expecting ')'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:34:41 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", "2021-09-27"]]
+  ↳ app/views/tweets/index.html.erb:32
+  Rendered simple_calendar/_month_calendar.html.erb (14.4ms)
+  Rendered tweets/index.html.erb within layouts/application (20.2ms)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (no implicit conversion of String into Array):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:32:in `block in _app_views_tweets_index_html_erb___3771947179703869236_70065115565140'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065115645780'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065115645780'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065115645780'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065115645780'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3771947179703869236_70065115565140'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:35:09 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (78.0ms)
+  Rendered tweets/index.html.erb within layouts/application (96.5ms)
+Completed 200 OK in 396ms (Views: 393.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:35:49 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (10.3ms)
+  Rendered tweets/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 53ms (Views: 52.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:36:16 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", "2021-09-27"]]
+  ↳ app/models/tweet.rb:4
+  Rendered simple_calendar/_month_calendar.html.erb (43924.8ms)
+  Rendered tweets/index.html.erb within layouts/application (43948.2ms)
+Completed 500 Internal Server Error in 43958ms (ActiveRecord: 0.9ms)
+
+
+  
+SystemExit (exit):
+  
+app/models/tweet.rb:4:in `exit'
+app/models/tweet.rb:4:in `tweet_count'
+app/models/tweet.rb:4:in `tweet_count'
+app/views/tweets/index.html.erb:32:in `block in _app_views_tweets_index_html_erb___3771947179703869236_70065116581280'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065116701180'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065116701180'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065116701180'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3283509999270959483_70065116701180'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3771947179703869236_70065116581280'
+Started GET "/" for 119.230.60.191 at 2021-10-26 01:38:47 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.4ms)
+Completed 200 OK in 12ms (Views: 6.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:38:52 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (12.5ms)
+  Rendered tweets/index.html.erb within layouts/application (28.4ms)
+Completed 500 Internal Server Error in 40ms (ActiveRecord: 0.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `tweet_count' for []:Array):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:32:in `block in _app_views_tweets_index_html_erb___3500371179081234882_69813754090980'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813754440900'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813754440900'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813754440900'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813754440900'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_69813754090980'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:39:36 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (22047.7ms)
+  Rendered tweets/index.html.erb within layouts/application (22052.6ms)
+Completed 500 Internal Server Error in 22057ms (ActiveRecord: 0.1ms)
+
+
+  
+SystemExit (exit):
+  
+app/views/tweets/index.html.erb:33:in `exit'
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb___3500371179081234882_69813586195340'
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb___3500371179081234882_69813586195340'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813586260860'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813586260860'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813586260860'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813586260860'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_69813586195340'
+Started GET "/" for 119.230.60.191 at 2021-10-26 01:40:37 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (3.1ms)
+Completed 200 OK in 7ms (Views: 5.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:40:40 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.2ms)
+  Rendered tweets/index.html.erb within layouts/application (11.0ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `tweet_count' for []:Array):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb___3500371179081234882_69813759038760'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813759112320'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813759112320'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813759112320'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813759112320'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_69813759038760'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:41:02 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (19715.4ms)
+  Rendered tweets/index.html.erb within layouts/application (19722.1ms)
+Completed 500 Internal Server Error in 19727ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `tweet_count' for []:Array):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:34:in `block in _app_views_tweets_index_html_erb___3500371179081234882_69813758747500'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813758884420'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813758884420'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813758884420'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813758884420'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_69813758747500'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:41:25 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (9961.2ms)
+  Rendered tweets/index.html.erb within layouts/application (9968.4ms)
+Completed 500 Internal Server Error in 9973ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `tweet_count' for #<Array:0x00007efd7c07d188>):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:34:in `block in _app_views_tweets_index_html_erb___3500371179081234882_69813586275200'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813586386300'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813586386300'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813586386300'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813586386300'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_69813586275200'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:41:45 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (8.1ms)
+  Rendered tweets/index.html.erb within layouts/application (13.4ms)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `tweet_count' for #<Array:0x0000000004a04570>):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb___3500371179081234882_37700820'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_38847160'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_38847160'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_38847160'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_38847160'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_37700820'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:42:37 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (160.9ms)
+  Rendered tweets/index.html.erb within layouts/application (166.8ms)
+Completed 500 Internal Server Error in 171ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method `tweet_tweet_path' for #<#<Class:0x00007efd9006a470>:0x00000000049f17e0>
+Did you mean?  tweet_path):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb___3500371179081234882_38770040'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_38990480'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_38990480'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_38990480'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_38990480'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_38770040'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:43:24 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (23652.7ms)
+  Rendered tweets/index.html.erb within layouts/application (23660.1ms)
+Completed 500 Internal Server Error in 23665ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined method `tweet_tweet_path' for #<#<Class:0x00007efd9006a470>:0x0000000004709f50>
+Did you mean?  tweet_path):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:34:in `block in _app_views_tweets_index_html_erb___3500371179081234882_37246920'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_31666040'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_31666040'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_31666040'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_31666040'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_37246920'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:43:55 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.9ms)
+  Rendered tweets/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 453ms (Views: 451.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:44:26 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (6.6ms)
+  Rendered tweets/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 54ms (Views: 46.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:44:39 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (8.8ms)
+  Rendered tweets/index.html.erb within layouts/application (14.6ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:44:41 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (8.4ms)
+  Rendered tweets/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:44:53 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (7.5ms)
+  Rendered tweets/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:44:55 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (11.9ms)
+  Rendered tweets/index.html.erb within layouts/application (34.0ms)
+Completed 200 OK in 91ms (Views: 90.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:44:56 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (6.5ms)
+  Rendered tweets/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:45:11 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (29.0ms)
+  Rendered tweets/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 67ms (Views: 65.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:45:13 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.0ms)
+  Rendered tweets/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:45:14 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (6.2ms)
+  Rendered tweets/index.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:45:15 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (6.9ms)
+  Rendered tweets/index.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 43ms (Views: 41.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:45:40 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (4.7ms)
+  Rendered tweets/index.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (String can't be coerced into Integer):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:33:in `+'
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb___3500371179081234882_69813653595760'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813653636500'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813653636500'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813653636500'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__3750438530560745970_69813653636500'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb___3500371179081234882_69813653595760'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:46:06 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.2ms)
+  Rendered tweets/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:46:09 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.2ms)
+  Rendered tweets/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 46ms (Views: 45.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:47:46 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (7.8ms)
+  Rendered tweets/index.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 254ms (Views: 244.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tweets/list.2%2F3" for 119.230.60.191 at 2021-10-26 01:47:48 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as 
+No template found for TweetsController#list, rendering head :no_content
+Completed 204 No Content in 312990ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets/list.2%2F3" for 119.230.60.191 at 2021-10-26 01:53:23 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as 
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:53:39 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.8ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (184.7ms)
+  Rendered tweets/index.html.erb within layouts/application (224.2ms)
+Completed 200 OK in 475ms (Views: 468.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tweets/list?date=2021-10-25" for 119.230.60.191 at 2021-10-26 01:53:43 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"2021-10-25"}
+Completed 406 Not Acceptable in 47861ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (TweetsController#list is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.6) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.6) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.6) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.6) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.6) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.6) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 01:54:42 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (10.3ms)
+  Rendered tweets/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 54ms (Views: 52.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 01:54:44 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+Completed 406 Not Acceptable in 205509ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::UnknownFormat (TweetsController#list is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.2.6) lib/action_controller/metal/implicit_render.rb:55:in `default_render'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `tap'
+actionpack (5.2.6) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:194:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:42:in `block in process_action'
+activesupport (5.2.6) lib/active_support/callbacks.rb:132:in `run_callbacks'
+actionpack (5.2.6) lib/abstract_controller/callbacks.rb:41:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `block in instrument'
+activesupport (5.2.6) lib/active_support/notifications/instrumenter.rb:23:in `instrument'
+activesupport (5.2.6) lib/active_support/notifications.rb:168:in `instrument'
+actionpack (5.2.6) lib/action_controller/metal/instrumentation.rb:32:in `process_action'
+actionpack (5.2.6) lib/action_controller/metal/params_wrapper.rb:256:in `process_action'
+activerecord (5.2.6) lib/active_record/railties/controller_runtime.rb:24:in `process_action'
+actionpack (5.2.6) lib/abstract_controller/base.rb:134:in `process'
+actionview (5.2.6) lib/action_view/rendering.rb:32:in `process'
+actionpack (5.2.6) lib/action_controller/metal.rb:191:in `dispatch'
+actionpack (5.2.6) lib/action_controller/metal.rb:252:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:52:in `dispatch'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:34:in `serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:52:in `block in serve'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `each'
+actionpack (5.2.6) lib/action_dispatch/journey/router.rb:35:in `serve'
+actionpack (5.2.6) lib/action_dispatch/routing/route_set.rb:840:in `call'
+warden (1.2.9) lib/warden/manager.rb:36:in `block in call'
+warden (1.2.9) lib/warden/manager.rb:34:in `catch'
+warden (1.2.9) lib/warden/manager.rb:34:in `call'
+rack (2.2.3) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.3) lib/rack/etag.rb:27:in `call'
+rack (2.2.3) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.3) lib/rack/head.rb:12:in `call'
+actionpack (5.2.6) lib/action_dispatch/http/content_security_policy.rb:18:in `call'
+rack (2.2.3) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.3) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/cookies.rb:670:in `call'
+activerecord (5.2.6) lib/active_record/migration.rb:559:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
+actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:00:55 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Completed 500 Internal Server Error in 493801ms (ActiveRecord: 0.0ms)
+
+
+  
+Errno::EIO (Input/output error @ io_writev - <STDOUT>):
+  
+app/controllers/tweets_controller.rb:61:in `list'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:01:37 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/" for 119.230.60.191 at 2021-10-26 02:01:37 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (427.6ms)
+  Rendered tweets/index.html.erb within layouts/application (443.8ms)
+Completed 500 Internal Server Error in 453ms (ActiveRecord: 5.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `data' for #<#<Class:0x00007f6714103a38>:0x00007f6714102098>
+Did you mean?  date):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb__751947897823818685_70040347459780'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__4550776868088118409_70040347762380'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__4550776868088118409_70040347762380'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__4550776868088118409_70040347762380'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__4550776868088118409_70040347762380'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb__751947897823818685_70040347459780'
+Processing by Rails::WelcomeController#index as HTML
+Processing by TweetsController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (337.3ms)
+  Rendered tweets/index.html.erb within layouts/application (359.4ms)
+Completed 500 Internal Server Error in 370ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `data' for #<#<Class:0x00007f67142f8550>:0x00007f671430abd8>
+Did you mean?  date):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb__751947897823818685_70040347459780'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__4550776868088118409_70040347762380'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__4550776868088118409_70040347762380'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__4550776868088118409_70040347762380'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__4550776868088118409_70040347762380'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb__751947897823818685_70040347459780'
+Started GET "/" for 119.230.60.191 at 2021-10-26 02:01:57 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/railties-5.2.6/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 12ms (Views: 5.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:02:00 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (286.2ms)
+  Rendered tweets/index.html.erb within layouts/application (300.0ms)
+Completed 500 Internal Server Error in 306ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `data' for #<#<Class:0x00007fd3ec05c270>:0x00007fd3ec06a8e8>
+Did you mean?  date):
+    22:               <% if defined?(Haml) && respond_to?(:block_is_haml?) && block_is_haml?(passed_block) %>
+    23:                 <% capture_haml(day, sorted_events.fetch(day, []), &passed_block) %>
+    24:               <% else %>
+    25:                 <% passed_block.call day, sorted_events.fetch(day, []) %>
+    26:               <% end %>
+    27:             <% end %>
+    28:           <% end %>
+  
+app/views/tweets/index.html.erb:33:in `block in _app_views_tweets_index_html_erb__2100630082265484316_70274087314660'
+app/views/simple_calendar/_month_calendar.html.erb:25:in `block (3 levels) in _app_views_simple_calendar__month_calendar_html_erb__7443731025888833_70274087704700'
+app/views/simple_calendar/_month_calendar.html.erb:21:in `block (2 levels) in _app_views_simple_calendar__month_calendar_html_erb__7443731025888833_70274087704700'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:20:in `block in _app_views_simple_calendar__month_calendar_html_erb__7443731025888833_70274087704700'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `each_slice'
+app/views/simple_calendar/_month_calendar.html.erb:18:in `_app_views_simple_calendar__month_calendar_html_erb__7443731025888833_70274087704700'
+app/views/tweets/index.html.erb:29:in `_app_views_tweets_index_html_erb__2100630082265484316_70274087314660'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:02:30 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (11.0ms)
+  Rendered tweets/index.html.erb within layouts/application (33.5ms)
+Completed 200 OK in 291ms (Views: 283.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/tweets/list?date=2021-10-25" for 119.230.60.191 at 2021-10-26 02:02:32 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"2021-10-25"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant TweetsController::Tweets):
+  
+app/controllers/tweets_controller.rb:61:in `list'
+Started GET "/tweets/list?date=2021-10-25" for 119.230.60.191 at 2021-10-26 02:02:44 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"2021-10-25"}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", "2021-10-25 00:00:00"]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 90ms (Views: 68.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tweets/list?date=2021-10-25" for 119.230.60.191 at 2021-10-26 02:02:56 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"2021-10-25"}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", "2021-10-25 00:00:00"]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 65ms (Views: 63.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:03:00 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.3ms)
+  Rendered tweets/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 50ms (Views: 48.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/tweets/list?date=2021-10-25" for 119.230.60.191 at 2021-10-26 02:03:01 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"2021-10-25"}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", "2021-10-25 00:00:00"]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 30ms (Views: 29.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list?date=2021-10-25" for 119.230.60.191 at 2021-10-26 02:03:30 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"2021-10-25"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", "2021-10-25 00:00:00"]]
+  ↳ app/controllers/tweets_controller.rb:63
+  Rendering tweets/list.html.erb within layouts/application
+  Rendered tweets/list.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 48436ms (Views: 28.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:04:21 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.4ms)
+  Rendered tweets/index.html.erb within layouts/application (16.7ms)
+Completed 200 OK in 60ms (Views: 58.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tweets/list?date=25" for 119.230.60.191 at 2021-10-26 02:04:23 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"25"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", nil]]
+  ↳ app/controllers/tweets_controller.rb:63
+  Rendering tweets/list.html.erb within layouts/application
+  Rendered tweets/list.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19496ms (Views: 26.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list?date=25" for 119.230.60.191 at 2021-10-26 02:04:46 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"25"}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", nil]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10467ms (Views: 29.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:05:01 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.2ms)
+  Rendered tweets/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 43ms (Views: 41.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list?date=2021-10-25" for 119.230.60.191 at 2021-10-26 02:05:04 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"2021-10-25"}
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."start_time" = ?[0m  [["start_time", "2021-10-25 00:00:00"]]
+  ↳ app/controllers/tweets_controller.rb:63
+  Rendering tweets/list.html.erb within layouts/application
+  Rendered tweets/list.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 156985ms (Views: 28.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:07:44 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.3ms)
+  Rendered tweets/index.html.erb within layouts/application (19.3ms)
+Completed 200 OK in 52ms (Views: 46.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:07:46 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.2ms)
+  Rendered tweets/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 42ms (Views: 41.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list?date=2021-10-25" for 119.230.60.191 at 2021-10-26 02:07:47 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"date"=>"2021-10-25"}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE (start_time LIKE '%2021-10-25%')[0m
+  ↳ app/controllers/tweets_controller.rb:63
+  Rendering tweets/list.html.erb within layouts/application
+  Rendered tweets/list.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8778ms (Views: 28.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:08:45 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.2ms)
+  Rendered tweets/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 66ms (Views: 62.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tweets/list" for 119.230.60.191 at 2021-10-26 02:08:47 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Rendering tweets/list.html.erb within layouts/application
+  Rendered tweets/list.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 83730ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <ul>
+    2: <%= @tweets.each do |tweet| %>
+    3:   <li>
+    4:     <p>tweet.title</p>
+    5:     <p>tweet.content</p>
+  
+app/views/tweets/list.html.erb:2:in `_app_views_tweets_list_html_erb___875289303071701779_70274024728480'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:10:19 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.2ms)
+  Rendered tweets/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:10:20 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (6.6ms)
+  Rendered tweets/index.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 41ms (Views: 38.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:10:22 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+  Rendering tweets/list.html.erb within layouts/application
+  Rendered tweets/list.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 141392ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <ul>
+    2: <%= @tweets.each do |tweet| %>
+    3:   <li>
+    4:     <p>tweet.title</p>
+    5:     <p>tweet.content</p>
+  
+app/views/tweets/list.html.erb:2:in `_app_views_tweets_list_html_erb___875289303071701779_70274024257780'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:12:49 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.2ms)
+  Rendered tweets/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 49ms (Views: 43.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:12:50 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.7ms)
+  Rendered tweets/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:12:52 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+DEPRECATION WARNING: Dangerous query method (method whose arguments are used as raw SQL) called with non-attribute argument(s): ["2", "3"]. Non-attribute arguments will be disallowed in Rails 6.0. This method should not be called with user-provided values, such as request parameters or model attributes. Known-safe values can be passed by wrapping them in Arel.sql(). (called from list at /home/ec2-user/environment/sample_app/app/controllers/tweets_controller.rb:61)
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT 2, 3 FROM "tweets"[0m
+  ↳ app/controllers/tweets_controller.rb:61
+  Rendering tweets/list.html.erb within layouts/application
+  Rendered tweets/list.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 163647ms (Views: 29.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:15:40 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.4ms)
+  Rendered tweets/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 59ms (Views: 55.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:15:41 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.4ms)
+  Rendered tweets/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:15:42 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (Unsupported argument type: id (Symbol)):
+  
+app/controllers/tweets_controller.rb:61:in `list'
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:16:10 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (7.6ms)
+  Rendered tweets/index.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 262ms (Views: 252.9ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:16:12 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IN (?, ?)[0m  [["id", 2], ["id", 3]]
+  ↳ app/controllers/tweets_controller.rb:63
+  Rendering tweets/list.html.erb within layouts/application
+  Rendered tweets/list.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11601ms (Views: 61.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:16:53 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IN (?, ?)[0m  [["id", 2], ["id", 3]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 6995ms (Views: 29.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:17:42 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IN (?, ?)[0m  [["id", 2], ["id", 3]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 8666ms (Views: 47.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:18:07 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IN (?, ?)[0m  [["id", 2], ["id", 3]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 19464ms (Views: 28.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:19:17 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (6.2ms)
+  Rendered tweets/index.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 256ms (Views: 246.4ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/tweets/list.2%2F3" for 119.230.60.191 at 2021-10-26 02:19:20 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as 
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IS NULL[0m
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 564273ms (Views: 90.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:29:18 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.8ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.4ms)
+  Rendered tweets/index.html.erb within layouts/application (20.1ms)
+Completed 200 OK in 52ms (Views: 48.3ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/tweets/list.2%2F3" for 119.230.60.191 at 2021-10-26 02:29:20 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as 
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IS NULL[0m
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 35ms (Views: 31.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:30:11 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.5ms)
+  Rendered tweets/index.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 50ms (Views: 47.2ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:30:13 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IN (?, ?)[0m  [["id", 2], ["id", 3]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 14897ms (Views: 41.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:30:41 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IN (?, ?)[0m  [["id", 2], ["id", 3]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 2049ms (Views: 29.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:31:05 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (5.3ms)
+  Rendered tweets/index.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 62ms (Views: 59.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:31:06 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (8.1ms)
+  Rendered tweets/index.html.erb within layouts/application (14.5ms)
+Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list.tweets" for 119.230.60.191 at 2021-10-26 02:31:08 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as 
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IS NULL[0m
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 53ms (Views: 49.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/tweets" for 119.230.60.191 at 2021-10-26 02:31:26 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets"[0m
+  ↳ app/views/tweets/index.html.erb:15
+  Rendered simple_calendar/_month_calendar.html.erb (10.6ms)
+  Rendered tweets/index.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 87ms (Views: 85.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/tweets/list?tweets%5B%5D=2&tweets%5B%5D=3" for 119.230.60.191 at 2021-10-26 02:31:28 +0000
+Cannot render console from 119.230.60.191! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by TweetsController#list as HTML
+  Parameters: {"tweets"=>["2", "3"]}
+  Rendering tweets/list.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" WHERE "tweets"."id" IN (?, ?)[0m  [["id", 2], ["id", 3]]
+  ↳ app/views/tweets/list.html.erb:2
+  Rendered tweets/list.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.2ms)
+
+
