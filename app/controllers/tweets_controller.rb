@@ -57,8 +57,7 @@ class TweetsController < ApplicationController
   end
 
   def list
-    list = params[:tweets]
-    @tweets = Tweet.where(id: list)
+    @tweets = Tweet.where(id: params[:tweets])
   end
 
   private
